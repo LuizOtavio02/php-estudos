@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moedas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Conversor de Moedas</h1>
+    </header>
+    <main>
+        <h1>Digite um Numero Real e sua operação Matemática</h1>
+        <form action="switch.php" method="get">
+            <label for="number">Primeiro Numero Real</label>
+            <input type="number" name="number" id="number" step="0.001">
+            <label for="number">Segundo Numero Real</label>
+            <input type="number" name="numberTwo" id="numberTwo" step="0.001">
+            <fieldset>
+                <legend>Operação</legend>
+                <input type="radio" name="oper" id="mais" value="1" checked>
+                <label for="mais">Mais</label>
+                <input type="radio" name="oper" id="menos" value="2">
+                <label for="menos">Menos</label>
+                <input type="radio" name="oper" id="vezes" value="3">
+                <label for="vezes">Vezes</label>
+                <input type="radio" name="oper" id="divisao" value="4">
+                <label for="divisao">Divisão</label>
+            </fieldset>
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+</body>
+</html>
