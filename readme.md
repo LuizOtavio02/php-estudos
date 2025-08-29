@@ -1,0 +1,1 @@
+Repositório dedicado aos meus estudos em PHP. Aqui estão reunidos diversos exercícios e práticas, desde os conceitos básicos que aprendi no início até Programação Orientada a Objetos (POO). O objetivo é registrar minha evolução e continuar adicionando novos conteúdos conforme avanço no aprendizado
